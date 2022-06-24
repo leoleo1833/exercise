@@ -1,0 +1,46 @@
+.img {
+  width: 40px;
+  border-radius: 50%;
+  height: 40px;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+.search {
+  border: none;
+  font-size: large;
+  outline: none;
+  vertical-align: middle;
+}
+
+.button {
+  border-radius: 15px;
+  border: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: white ;
+  background-color: rgb(2, 137, 233);
+  cursor: pointer;
+  transition: 0.15s;
+  vertical-align: middle;
+}
+
+.button:hover {
+  background-color: rgb(2, 21, 233);
+}
+
+.button:active {
+  opacity: 0.75;
+  color: white ;
+}
+
+.divbox {
+  display: inline-block;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.30);
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

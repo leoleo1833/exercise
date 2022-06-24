@@ -1,0 +1,64 @@
+
+ 
+ .gridall {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+ column-gap: 50px;  
+ }
+
+ .img {
+  width: 100%;
+  object-fit: cover;
+  object-position: 40% 60%;
+ }
+
+ .oliver {
+  margin-top: 2px;
+  margin-bottom: 0;
+ }
+
+ .friend {
+  margin-bottom: 0;
+  margin-top: 6px;
+ }
+
+ .add{
+  color: white;
+  background-color: rgb(78, 78, 249);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.15s;
+ }
+
+ .add:hover {
+  background-color: rgb(10, 10, 224);
+ }
+
+ .add:active {
+  opacity: 0.75;
+  color: white;
+ }
+
+.profilemutual {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+ .channel-logo {
+  width: 30px;
+  border-radius: 50%;
+  height: 30px;
+  object-fit: cover;
+ }
+
+ .divpic {
+  box-shadow:0 0 5px rgba(0, 0, 0, 0.15) ;
+ }
+

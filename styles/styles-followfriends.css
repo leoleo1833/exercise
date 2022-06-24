@@ -1,0 +1,46 @@
+.img {
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  object-fit: cover;
+}
+
+
+p {
+  margin: 0;
+  font-family: arial;
+}
+
+.popular {
+  font-size: small;
+  color: grey ;
+}
+
+.thecat {
+  color: grey;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+ 
+.text {
+  flex: 1;
+  max-width: 500px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.button {
+  background-color:rgb(49, 128, 238);
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+}

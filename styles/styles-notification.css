@@ -1,0 +1,29 @@
+div {
+  font-family: arial;
+}
+
+.all {
+  border: 1px;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 10px;
+  width: 300px;
+  padding: 5px;
+}
+
+.homeandbutton {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin-top: 5px;
+}
+
+.button {
+   border-radius: 15px;
+   border: 0;
+   background-color:rgb(54, 129, 220);
+   color: white;
+   padding-left: 7px;
+   padding-right: 7px;
+}
+

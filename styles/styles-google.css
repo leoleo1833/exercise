@@ -1,0 +1,22 @@
+.div {
+  text-align: center;
+  margin-top: 15%;
+}
+
+.searchbar {
+  border: none;
+  width: 400px;
+  text-align: left;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  padding: 10px 20px;
+  outline: none;
+}
+
+.button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-top: 10px;
+}
