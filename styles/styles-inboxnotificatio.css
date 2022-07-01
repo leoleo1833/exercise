@@ -1,0 +1,58 @@
+.allinit {
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.20);
+  border-radius: 10px;
+  padding: 10px 15px;
+  width: 340px;
+}
+
+.allinboxes {
+  font-family: arial;
+  color: grey;
+  font-size: small;
+  margin-top: 0;
+}
+
+.vertical-row {
+  display: flex;
+  justify-content: left;
+  width: 340px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile-picture {
+  width: 35px;
+  border-radius: 50%;
+  height: 35px;
+  object-fit: cover;
+}
+
+
+.chewy2 {
+  display: flex;
+  justify-content: space-between;
+  width: 295px;
+}
+
+.biggest-sale {
+font-size: small;
+display: block;
+}
+
+.text {
+  
+  margin-left: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: arial;
+}
+
+.heythere {
+  margin: 0;
+  color: grey;
+  font-size: smaller;
+}
+
+.time {
+ color: grey;
+}
